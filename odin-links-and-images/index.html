@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and Images</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+    <p>To create the link below we used a standard <strong>href</strong> attribute within an anchor tag. But we also added the <strong>rel</strong> attribute. By adding <em>rel="noopener noreferrer"</em> to the anchor tag we accomplish two things:</p>
+    <ul>
+        <li><em>noopener</em>: Ensures that a link opened in a new tab or window cannot interact with or access the original page.</li>
+        <li><em>noreferrer</em>: Provides both privacy and security by preventing the new page from knowing where the user came from (hiding the referrer) and also includes the behavior of <strong>noopener</strong>, preventing the new page from accessing the original page.</li>
+    </ul>
+    <p>Finally, we also include the <strong>target</strong> attribute in order to open the new page in a separate tab. The full attribute is <em>target="_blank"</em>.</p>
+    <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
+    <p>The above link is an <strong>absolute</strong> link. That is, it is a link to another wepbage, and requires a full URL <em>(scheme://domain/path)</em>. Below, we have created a <strong>relative</strong> link. This is a link to another page within our website. It assumes the domain will be the same, so only requires the relative path. Since the 'About' page is in a separate directory from the 'Index' homepage, the href below must point to the path of the correct html file by using <em>"./pages/about.html"</em>:</p>
+    <a href="./pages/about.html">About</a>
+    <p>Here's a picture of a dog. It's stored locally in a directory called '<em>images</em>', so we use the <strong>src</strong> attribute and the relative path:</p>
+    <img src="./images/dog.jpg" alt="A picture of a dog" height="310" width="300">
+    <p>For extra information about the four types of images found on the web, <a href="./pages/image-types.html">Click Here</a>!</p>
+</body>
+</html>
