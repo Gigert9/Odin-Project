@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 78px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 10px 80px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    padding: 10px 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}

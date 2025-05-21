@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 78px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+li {
+    padding: 10px 80px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    margin: 10px auto;
+    display: block;
+}
+
+h3 {
+    padding: 0px 10px;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.recipe, p {
+    font-size: 18px;
+    padding: 10px 30px;
+}
+
+.bullet {
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
